@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f5f23640-c23a-4afd-9a37-9ba65d801326" name="Changes" comment="" />
+=======
+    <list default="true" id="f5f23640-c23a-4afd-9a37-9ba65d801326" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Python Learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about_python/python_basics.py" afterDir="false" />
+    </list>
+>>>>>>> 2534a707965d6b59d33cb6ad7bd21ab9ffa1a3a9
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
     "state": "OPEN",
@@ -25,6 +38,8 @@
     "accountId": "583de580-0548-4566-9ae9-c0947f7443b4"
   }
 }]]></component>
+=======
+>>>>>>> 2534a707965d6b59d33cb6ad7bd21ab9ffa1a3a9
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -38,8 +53,12 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/Users/shrik/PycharmProjects/Python Learning",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+=======
+    "last_opened_file_path": "C:/Users/shrik/PycharmProjects/Python Learning"
+>>>>>>> 2534a707965d6b59d33cb6ad7bd21ab9ffa1a3a9
   }
 }]]></component>
   <component name="SharedIndexes">
