@@ -81,6 +81,43 @@ print(name.count("z"))
 # is an example of operator overloading
 print("Hello "+ "Krishna")
 
+# Type conversion
+# Number to string
+a =123
+print(str(a)) # "123"
+
+# Floating to string
+a =1.23
+print(str(a))
+
+# Boolean to string
+a = True
+print(str(a)) # "True"
+
+# list to string
+a = [1,2,3]
+print(str(a)) # "[1,2,3]
+
+# tuple to string
+a = (1,2,3)
+print(str(a)) # "(1,2,3)
+
+# dictionary to string
+print(str({'a': 1, 'b': 2}))  # "{'a': 1, 'b': 2}"
+
+# None to string
+print(str(None)) # "None"
+
+# string to int
+a = "12"
+print(type(int(a)))
+
+# string to list
+a = "[1,2,3]"
+print(list(a))  # it will treat each as a char ['[', '1', ',', '2', ',', '3', ']']
+a = "123"
+print(list(a))
+
 
 
 
