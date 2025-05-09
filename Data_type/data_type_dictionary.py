@@ -1,4 +1,4 @@
-# Collection of kye and value pair
+ # Collection of kye and value pair
 # Each pair has unique keys
 # Key must be immutable or hashable
 # Value can be duplicate
