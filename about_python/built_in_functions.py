@@ -74,12 +74,12 @@ print(float())
 
 # Integer to float
 int_val = 10
-print(float(int_val))
+print(float(int_val))  # 10.0
 
 # Bool to float True--->1.0
-print(float(True))
+print(float(True))  # 1.0
 # False---> 0.0
-print(float(False))
+print(float(False))  # 0.0
 
 # id() - returns the memory location id
 a = 10

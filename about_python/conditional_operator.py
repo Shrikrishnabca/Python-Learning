@@ -4,7 +4,10 @@ from Data_type.data_type_string import print_ch
 # if statement executes if block condition is True
 a = 10
 if a > 5:
-    print(f"{a} is greater than 5")
+    print(f"{a} is greater than 5")  # 10 is greater than 5
+
+# In line if statement
+if a > 5: print(f"{a} is greater than 5")
 
 # In line if statement
 age = 18
@@ -16,6 +19,7 @@ if a < 10:
     print(f"{a} is less then 10")
 else:
     print(f"{a} is greater than 10")
+print(f"{a} is less than 10") if a < 10 else print(f"{a} is greater than 10")
 
 # In line if-else
 age = 23
