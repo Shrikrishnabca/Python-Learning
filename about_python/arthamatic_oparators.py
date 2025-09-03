@@ -21,32 +21,31 @@ print(5 % 2)  # 1
 # Exponentiation: " ** " Raises the first value to the power of the second
 print(5 ** 2)  # 25
 
-
 # Relational operators, Gives boolean value
 # Equal to: " == " Checks if two values are equal
-print(5==5)  # True
+print(5 == 5)  # True
 
 # Not equal to: " != " Checks if two values are not equal
-print(3!=4)  # True
+print(3 != 4)  # True
 
 # Greater than: Checks if left value is greater than right
-print(5>3)  # True
+print(5 > 3)  # True
 
 # Less than: Checks if left value is less than right
-print(3<5)  # True
+print(3 < 5)  # True
 
 # Greater than or equal to: Checks if left value is greater than or equal to right
-print(5>=5)  # True
-print(5>=6)  # True
+print(5 >= 5)  # True
+print(5 >= 6)  # True
 
 # Less than or equal to: Checks if left value is less than or equal to right
-print(3<=3)  # True
-print(2<=3)  # True
+print(3 <= 3)  # True
+print(2 <= 3)  # True
 
 # Identity operators in Python are used to compare the memory addresses of two objects.
 a = "Hello"
 b = a
-print(b is a) # Returns True if both variables refer to the same object
+print(b is a)  # Returns True if both variables refer to the same object
 c = "hello"
 print(c is not a)  # Returns True if both variables do not refer to the same object
 
@@ -57,5 +56,22 @@ print(a in "hello good morning asha")  # Returns True if the specified value is 
 
 print(a not in "hello good morning")  # Returns True if the specified value is not found in the sequence
 
+# logical operators, they return boolean values
+# There are 3 logical operators in Python
+# 1. and (Logical AND)
+# Returns True if both the statements are true.
 
+x = 5
+print(x > 2 and x < 10)  # True
 
+# 2. or (Logical OR)
+# Returns True if at least one of the statements is true.
+
+x = 5
+print(x < 3 or x < 10)  # True
+
+# 3. not (Logical NOT)
+# Reverses the result, returns False if the result is true.
+
+x = 5
+print(not (x > 3 and x < 10))  # False

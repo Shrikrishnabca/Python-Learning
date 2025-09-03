@@ -14,7 +14,7 @@ age = 18
 if age >= 18: print("able to vote")
 
 # if else if block of code executes condition was true, if not else block get executed
-a= 20
+a = 20
 if a < 10:
     print(f"{a} is less then 10")
 else:
@@ -23,7 +23,7 @@ print(f"{a} is less than 10") if a < 10 else print(f"{a} is greater than 10")
 
 # In line if-else
 age = 23
-print("able to vote") if age>= 19 else print("not able to vote")
+print("able to vote") if age >= 19 else print("not able to vote")
 age = 23
 print("you can marry") if age >= 21 else print(" Sorry you cannot marry now")
 
@@ -41,6 +41,7 @@ else:
     print("adult")
 
 # nested if else: if else statement inside another if else statement
-
-
-
+x = 10
+if x > 0:
+    if x < 20:
+        print("x is between 0 and 20")

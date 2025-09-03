@@ -24,7 +24,7 @@ i = 10
 while i < 100:
     print(i)
     if i == 50:
-        break
+            break
     i += 10
 
 # Continue used to skip the current iteration

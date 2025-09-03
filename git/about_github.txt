@@ -1,0 +1,40 @@
+# GitHub is a cloud-based platform built on top of Git.
+# It allows you to Host Git repositories online, Share your code with others, Contribute to open-source and Collaborate on projects
+
+#  Key Features of GitHub
+# Repositories (Repos)
+# A repo is your project folder on GitHub.
+# It holds your code, commits, issues, and history.
+# Can be public (anyone can see) or private (you control access).
+
+#  Commits & History
+# Represents a snapshot of your code.
+# Has a message like “Added login page”.
+# Is saved with author name, date, and hash.
+
+#  Branches
+# Branches let you work on features independently from main.
+# You can test, edit, or break code without affecting the original.
+
+# Pull Requests (PRs)
+# A pull request is how you ask to merge changes from one branch/repo to another.
+# Team members review, discuss, and approve the changes before merging.
+# Great for collaboration and quality control.
+
+# Forking
+# Fork = copy someone else's repo into your account.
+# Make changes without affecting the original.
+
+# Issues
+# Issues = To-do list + bug tracker
+# Used to report bugs, request features, or manage tasks.
+# You can assign labels, assignees, milestones, etc.
+
+# GitHub Actions
+# Running tests when code is pushed
+# Deploying apps automatically
+# Sending notifications
+
+
+
+

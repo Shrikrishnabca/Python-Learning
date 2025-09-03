@@ -57,6 +57,23 @@ b = {"naga": 1, "madhu": 2}
 c = { **a, **b}
 print(c)
 
+travel_log = {
+    "banglore": ["kormangla", "whitefield", "JP nagar"],
+    "shimogga": ["thirthahalli", "koppa"]
+}
+
+print(travel_log["banglore"][0])
+
+national_info = {
+    "India": {
+        "karnataka": "banglore",
+        "Thamilnadu": "chenai"
+ },
+ "bangldesh" : "katmandu"
+}
+print(national_info["India"]["karnataka"])
+
+
 
 
 

@@ -150,4 +150,38 @@ async def hello():
 
 asyncio.run(hello())
 
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+
+arr = [2, 10, 7, 3, 6]
+# target=5
+# result = set()
+# for i in arr:
+#     for j in arr:
+#         if i + j == target:
+#             result.add(i)
+#             result.add(j)
+# print(result)
+
+arr.sort()
+arr = [2, 2, 3, 7, 10]
+target = 5
+
+
+def two_sum(arr, target):
+    low = 0
+    high = len(arr) - 1
+
+    while low < high:
+        tot = arr[low] + arr[high]
+        if tot > target:
+            high -= 1
+        elif tot < target:
+            low += 1
+        else:
+            return arr[low], arr[high]
+
+
+print(two_sum(arr, target))
+
 

@@ -1,0 +1,44 @@
+Git is a distributed version control system used to track changes in source code during software
+development.
+It lets you collaborate with others, manage branches, and track history.
+
+Basic Git Commands:
+git init ---> Initializes a new Git repository in the current directory
+git clone <url> ---> Clones a remote repository to your local machine
+git status ---> Shows changed files and current branch
+git add <file> ---> add the file to staging area for commit
+git add . ---> add the all the files to staging area
+git commit -m "message" ---> Saves the staged changes with a message
+git push ---> Pushes committed changes to remote repository
+git pull ---> Fetches and merges changes from remote repository
+git log ---> Shows commit history
+git diff ---> Shows differences between changes
+
+Branching & Merging:
+git branch ---> list of all local branches
+git branch <name> ---> create a new branch
+git checkout <branch> ---> switch to the specific branch
+git checkout -b <branch> ---> create a new branch and checkout to that branch
+git merge <branch> ---> merge the given branch into the current branch
+git branch -d <branch> --->delete the specific branch
+
+Undo & Reset:
+git reset --hard ---> discard all local changes permanently
+git reset <file> ---> unstage a files
+get restore <file> ---> remove the changes
+git checkout -- <file> ---> Restores file to last committed state
+git revert <commit> ---> Creates a new commit that undoes the specified commit
+
+Working with Remote:
+git remote -v ---> show the remote URL
+git remote add origin <url> ---> Connects your local repo to a remote
+git push -u origin <branch> ---> Pushes and sets upstream branch
+git fetch ---> Downloads changes but doesn’t apply them
+
+Advanced & Useful Commands:
+git stash ---> Temporarily saves changes without committing
+git stash pop ---> Restores stashed changes
+git rebase <branch> --->
+
+
+
